@@ -1,0 +1,6 @@
+customer_key,customer_id,customer_unique_id,customer_zip_code_prefix,customer_city
+101,order_cust_001,uniq_001,01001,Sao Paulo
+102,order_cust_002,uniq_002,01002,Sao Paulo
+103,order_cust_003,uniq_003,02001,Rio de Janeiro
+104,order_cust_004,uniq_004,02002,Rio de Janeiro
+105,order_cust_005,uniq_005,03001,Belo Horizonte

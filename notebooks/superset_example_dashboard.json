@@ -1,0 +1,9 @@
+{
+  "note": "This is a placeholder. Export an actual dashboard from Superset (Dashboard -> Export) and replace this file with the exported JSON to include a reproducible demo in the repo.",
+  "version": "1.0",
+  "dashboard": {
+    "dashboard_title": "Sample Olist Dashboard",
+    "description": "Replace with an exported Superset dashboard JSON",
+    "slices": []
+  }
+}

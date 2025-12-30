@@ -1,0 +1,4 @@
+pytest
+sqlfluff
+dbt-core
+dbt-postgres

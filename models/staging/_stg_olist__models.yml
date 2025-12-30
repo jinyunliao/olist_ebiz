@@ -1,0 +1,33 @@
+version: 2
+models:
+  - name: stg_orders
+    description: "清洗后的订单基础表"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_order_items
+    description: "订单明细表，包含价格和运费"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: freight_value
+        tests:
+          - not_null
+  
+
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_unique_id
+        tests:
+          - not_null

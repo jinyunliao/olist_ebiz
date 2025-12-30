@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: dbt-run-cron
+spec:
+  schedule: "0 2 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: dbt
+            image: yourrepo/olist-db:latest
+            command: ["/bin/sh", "-c", "dbt deps && dbt run --profiles-dir /app && dbt test --profiles-dir /app"]
+            env:
+            - name: DBT_TARGET
+              value: "prod"
+          restartPolicy: OnFailure
