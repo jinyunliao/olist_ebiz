@@ -40,9 +40,9 @@ Prerequisites: Python 3.9+, dbt-core (and adapter), Airflow (>=2.0), Docker (opt
 
 ![Dashboard Screenshot](pic/airflow_dag.png)
 
-![Dashboard Screenshot](pic/airflow_dagt2.png)
+![Dashboard Screenshot](pic/airflow_dag2.png)
 
-![Dashboard Screenshot](pic/airflow_dagt3.png)
+![Dashboard Screenshot](pic/airflow_dag3.png)
 
 ![Dashboard Screenshot](pic/dbt.png)
 
