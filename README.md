@@ -44,6 +44,10 @@ Prerequisites: Python 3.9+, dbt-core (and adapter), Airflow (>=2.0), Docker (opt
 
 ![Dashboard Screenshot](pic/airflow_dagt3.png)
 
+![Dashboard Screenshot](pic/dbt.png)
+
+![Dashboard Screenshot](pic/dbt2.png)
+
 ## Contribution & Standards 🔧
 Follow the `CONTRIBUTING.md` guidelines (coming soon): code style, SQL formatting, and how to add tests and docs. We use semantic versioning and a clear changelog for releases.
 
