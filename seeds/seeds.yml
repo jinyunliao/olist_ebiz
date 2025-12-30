@@ -1,0 +1,43 @@
+version: 2
+
+seeds:
+  - name: dim_products
+    tags: [superset_demo]
+    description: "Sample products for Superset demo"
+    columns:
+      - name: product_key
+        description: "Surrogate product key"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_customers
+    tags: [superset_demo]
+    description: "Sample customers for Superset demo"
+    columns:
+      - name: customer_key
+        description: "Surrogate customer key"
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_orders
+    tags: [superset_demo]
+    description: "Sample orders for Superset demo"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_key
+      - name: product_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: product_key

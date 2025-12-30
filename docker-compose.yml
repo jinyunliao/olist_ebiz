@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: analytics
+      POSTGRES_USER: dbt
+      POSTGRES_PASSWORD: dbt
+    ports:
+      - "5432:5432"
+
+  dbt:
+    build: .
+    command: /bin/bash -c "sleep 5 && dbt deps && dbt run --profiles-dir ."
+    environment:
+      DBT_TARGET: dev
+    volumes:
+      - ./:/app
+    depends_on:
+      - postgres
