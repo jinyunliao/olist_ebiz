@@ -1,7 +1,4 @@
-# Portfolio One-Pager — Senior Analytics Consultant
-
-This one-pager is a copy-ready document to include in proposals or Upwork profiles. Replace content with your real experience, anonymized client names, and verified outcomes.
-
+#Senior Analytics Consultant
 ## Title
 Senior Data Engineer & Analytics Engineer — dbt, Airflow, Warehouse Analytics
 
