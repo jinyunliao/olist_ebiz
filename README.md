@@ -57,7 +57,3 @@ This repository includes example CI workflows for running dbt commands and publi
 ## Portfolio materials ✨
 See `docs/UPWORK_CASE_STUDY.md` and `docs/UPWORK_PROPOSAL_TEMPLATE.md` for examples of how to present this project to Upwork clients and how a senior consultant would scope engagements at the $100k+ or $1M revenue level.
 
----
-
-If you'd like, I can: add CI, add Dockerfile & Makefile, extend DAGs with alerting, or draft an Upwork profile summary and pricing sheet tailored to your experience. Which would you like me to do next?
-
