@@ -53,7 +53,3 @@ Follow the `CONTRIBUTING.md` guidelines (coming soon): code style, SQL formattin
 
 ## Deployments & CI 🚀
 This repository includes example CI workflows for running dbt commands and publishing generated docs to artifact storage. See `docs/PROJECT_OVERVIEW.md` for recommended deployment patterns (Docker, Kubernetes, managed Airflow).
-
-## Portfolio materials ✨
-See `docs/UPWORK_CASE_STUDY.md` and `docs/UPWORK_PROPOSAL_TEMPLATE.md` for examples of how to present this project to Upwork clients and how a senior consultant would scope engagements at the $100k+ or $1M revenue level.
-
