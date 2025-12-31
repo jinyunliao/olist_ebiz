@@ -1,4 +1,4 @@
-# Upwork Proposal Template (Senior Consultant)
+# Proposal Template (Senior Consultant)
 
 Use this template when responding to high-value Upwork requests. Customize the scope, deliverables and pricing to the client's size and risk profile.
 
@@ -36,8 +36,5 @@ What success looks like — e.g., all tests passing in CI, docs published, stake
 Payment milestones, intellectual property, confidentiality, and a limited warranty period for bug fixes.
 
 ## 9. Why me
-Short summary of relevant experience, sample outcomes, and references (or anonymized testimonials).
+Short summary of relevant experience, sample outcomes, and references .
 
----
-
-Tip: Attach a compact portfolio one-pager and sample project timeline to give a client confidence in delivery and cost structure.
