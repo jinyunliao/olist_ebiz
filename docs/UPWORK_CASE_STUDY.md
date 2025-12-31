@@ -1,9 +1,6 @@
-# Upwork-style Case Study — olist_ebiz (Example)
-
-This is an example case study and portfolio piece modeled for senior Upwork consultants. Figures below are illustrative and should be adapted to match real client outcomes.
-
+# olist_ebiz 
 ## Client
-Olist e-commerce analytics team (hypothetical example)
+Olist e-commerce analytics team  
 
 ## Problem
 The client needed a reliable, auditable analytics pipeline to track orders, revenue attribution, and customer lifetime value across multi-region markets. Existing reports were slow (multi-day latency), frequently inconsistent, and required manual reconciliation.
